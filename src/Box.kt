@@ -1,7 +1,9 @@
 class Box {
 
     private val length:Int = 10
+
     private val width:Int = 20
+
     private val height:Int = 5
 
     val volume
@@ -13,13 +15,12 @@ class Box {
             if(value.length < 3){
                 println("Name cannot be less that 3 characters")
             }else{
-                field = "Mr $value"
+                field = value
             }
         }else{
             field = "Name cannot be Empty"
         }
     }
-
 
      fun fillContent(){
         println("Filled Box")
