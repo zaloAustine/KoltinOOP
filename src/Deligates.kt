@@ -5,6 +5,7 @@ class StudentHeavy {
 }
 
 class Student{
+
     // only called when accessed
     val heavy by lazy {StudentHeavy()}
 
@@ -22,6 +23,10 @@ class Test{
     fun test(){
         val student = Student()
         student.heavy
-
     }
 }
+
+
+
+//Delegate
+//Singleton
