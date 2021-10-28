@@ -1,13 +1,17 @@
 
     fun main(){
 
-        val box = Box(
-            12,
-            34,
-            45
-        )
+        val pc = PremiumCoffeeMachine(24.6,"Black")
+        val coffee = pc.makeCoffee("Cappuccino")
+        val info = pc.machineInfo()
 
-        val coffeeMachine = BaseCoffeeMachine(1000.34,"Black")
-        coffeeMachine
+        val sc = SimpleCoffeeMachine(24.6,"Black")
+        val simpleCoffee = pc.makeCoffee("Cappuccino")
+        val simpleInfo = pc.machineInfo()
 
     }
+
+
+
+//    abstract class
+//    ...define class without actual implementation
