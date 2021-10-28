@@ -1,6 +1,7 @@
 
     fun main(){
 
+        //https://mjmanaog.medium.com/kotlin-abstract-class-interface-b9c4caf22252
         val pc = PremiumCoffeeMachine(24.6,"Black")
         val coffee = pc.makeCoffee("Cappuccino")
         val info = pc.machineInfo()
