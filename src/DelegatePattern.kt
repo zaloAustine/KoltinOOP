@@ -29,11 +29,9 @@ class FileDownloader(private val file:String):Downloader{
     }
 }
 
-
 class FilePlayer(private val file:String):Player{
     override fun play(name: String) {
         println("$file playing")
-
     }
 
 }
