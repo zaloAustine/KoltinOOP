@@ -46,3 +46,5 @@ class App :DownloadListener{
     }
 
 }
+
+//desing patterns

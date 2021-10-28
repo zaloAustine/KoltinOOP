@@ -1,13 +1,12 @@
+import java.io.File
 
-    fun main(){
+const val FILE_NAME = "zalo"
+
+fun main(){
 
         val app = App()
         app.setUp()
 
+
+
     }
-
-
-
-
-//    abstract class
-//    ...define class without actual implementation
