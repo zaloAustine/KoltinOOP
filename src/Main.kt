@@ -1,8 +1,9 @@
 
     fun main(){
 
-        val box = Box()
-
-
+        val box = Box(
+            12,
+            34,
+            45)
 
     }

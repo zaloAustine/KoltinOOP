@@ -1,10 +1,19 @@
-class Box {
+class Box constructor(
+            private val length:Int,
+            private val width:Int,
+            private val height:Int
+){
 
-    private val length:Int = 10
+  init {
+      // called after primary constructor
+      println("called init")
 
-    private val width:Int = 20
+  }
 
-    private val height:Int = 5
+    // secondary constructor
+    constructor(color:String = "Red"):this(0,0,0){
+
+    }
 
     val volume
         get() = length*width*height
