@@ -28,7 +28,7 @@ class App :DownloadListener{
     fun setUp(){
         val downloadManager = DownloadManager()
         downloadManager.downloadListener = this
-        downloadManager.downloadFiles("zalo.m")
+        downloadManager.downloadFiles("zalo.mkv")
 
     }
     override fun onDownloadStarted() {
